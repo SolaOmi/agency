@@ -26,10 +26,10 @@ Mock web developer agency site
     * 3+ team members (picture, name, role, social media);
 7. Section - Clients
     * list of 3+ clients (logos);
-7. Section - Contact
+8. Section - Contact
     * Title and subtitle
     * Email Contact form (name, email, phone, message);
-8. Footer
+9. Footer
     * Copyright
     * Social Media Links
     * Privacy Policy
