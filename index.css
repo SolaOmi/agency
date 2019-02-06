@@ -1,3 +1,35 @@
-h1 {
-  background-color: red;
+header.masthead {
+  background-image: url('https://images.unsplash.com/photo-1428223501723-d821c5d00ca3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  min-height: 30rem;
+}
+
+.intro-text {
+  padding: 7.0rem 0;
+}
+
+.intro-text .intro-lead-in {
+  font: italic 22px 'sans-serif';
+}
+
+.intro-text .intro-heading {
+  font: bold 50px 'sans-serif';
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+@media (min-width: 768px) {
+  .intro-text .intro-lead-in {
+    font-size: 40px;
+  }
+
+  .intro-text .intro-heading {
+    font-size: 75px;
+  }
 }
