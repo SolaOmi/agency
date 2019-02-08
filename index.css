@@ -7,6 +7,10 @@ header.masthead {
   min-height: 30rem;
 }
 
+#mainNav {
+  background-color: #212529;
+}
+
 .intro-text {
   padding: 7.0rem 0;
 }
@@ -31,5 +35,19 @@ header.masthead {
 
   .intro-text .intro-heading {
     font-size: 75px;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    background-color: transparent;
+    padding: 1.0rem 0;
+    transition: padding-top .3s,padding-bottom .3s;
+    -webkit-transition: padding-top .3s,padding-bottom .3s;
+  }
+
+  #mainNav.navbar-shrink {
+    background-color: #212529;
+    padding: 0;
   }
 }
