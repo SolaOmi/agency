@@ -23,7 +23,12 @@ header.masthead {
   padding: 7.0rem 0;
 }
 
-#portfolio .card-title {
+.portfolio-caption {
+  background-color: #fff;
+  padding: 2.0rem;
+}
+
+.portfolio-caption h5 {
   font-weight: bold;
 }
 
