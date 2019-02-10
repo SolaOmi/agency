@@ -19,6 +19,18 @@ header.masthead {
   font-weight: bold;
 }
 
+#portfolio {
+  padding: 7.0rem 0;
+}
+
+#portfolio .card-title {
+  font-weight: bold;
+}
+
+.portfolio-item {
+  margin-bottom: 2.0rem;
+}
+
 .intro-text {
   padding: 7.0rem 0;
 }
