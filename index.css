@@ -36,6 +36,27 @@ header.masthead {
   margin-bottom: 2.0rem;
 }
 
+#team {
+  padding: 7.0rem 0;
+}
+
+.team-member img {
+  border: 7px solid #fff;
+  height: 225px;
+  width: 225px;
+}
+
+.team-member ul li a {
+  background-color: #000;
+  border-radius: 100%;
+  color: #fff;
+  display: block;
+  font-size: 1.5rem;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+}
+
 .intro-text {
   padding: 7.0rem 0;
 }
@@ -51,6 +72,15 @@ header.masthead {
 .btn-xl {
   font-size: 18px;
   padding: 20px 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline-item {
+  display: inline-block;
 }
 
 @media (min-width: 768px) {
