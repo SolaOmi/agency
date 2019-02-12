@@ -11,10 +11,6 @@ header.masthead {
   background-color: #212529;
 }
 
-#services, #portfolio, #team, #contact {
-  padding: 7.0rem 0;
-}
-
 #contact .form-group {
   margin-bottom: 2.0rem;
 }
@@ -85,6 +81,10 @@ header.masthead {
 
 .list-inline-item {
   display: inline-block;
+}
+
+.section-padding {
+  padding: 7.0rem 0;
 }
 
 @media (min-width: 768px) {
