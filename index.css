@@ -11,16 +11,24 @@ header.masthead {
   background-color: #212529;
 }
 
-#services {
+#services, #portfolio, #team, #contact {
   padding: 7.0rem 0;
+}
+
+#contact .form-group {
+  margin-bottom: 2.0rem;
+}
+
+#contact .form-group input, #contact .form-group textarea {
+  padding: 1.8rem;
+}
+
+#message {
+  height: 244px;
 }
 
 .service-heading {
   font-weight: bold;
-}
-
-#portfolio {
-  padding: 7.0rem 0;
 }
 
 .portfolio-caption {
@@ -34,10 +42,6 @@ header.masthead {
 
 .portfolio-item {
   margin-bottom: 2.0rem;
-}
-
-#team {
-  padding: 7.0rem 0;
 }
 
 .team-member img {
