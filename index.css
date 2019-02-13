@@ -46,7 +46,7 @@ header.masthead {
   width: 225px;
 }
 
-.team-member ul li a {
+.social-buttons .list-inline-item a {
   background-color: #000;
   border-radius: 100%;
   color: #fff;
